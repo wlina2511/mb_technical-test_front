@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &827694000476499924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 827694000476499926}
+  - component: {fileID: 827694000476499921}
+  - component: {fileID: 827694000476499920}
+  m_Layer: 0
+  m_Name: LeaderBoard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &827694000476499926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827694000476499924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.21354933, y: -0.13483472, z: -1.058132}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &827694000476499921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827694000476499924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba7a33097959d642a12f3bbdf002f8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainMenuCanvas: {fileID: 0}
+  RankDisplayCanvas: {fileID: 0}
+  idInput: {fileID: 0}
+  scoreInput: {fileID: 0}
+  SortingButtonText: {fileID: 0}
+  playersRanks: {fileID: 0}
+  titleText: {fileID: 0}
+--- !u!114 &827694000476499920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827694000476499924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e8c13c0f2647e4caa9d2b618aa44ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasParent: {fileID: 0}
+  client: {fileID: 0}
+  playerForm: {fileID: 0}
+  playerListPanel: {fileID: 0}
+  playerDatabase: {fileID: 11400000, guid: 6f0115dbb81d7f047bc5d6dfe5156f0d, type: 2}
+  playerViewPrefab: {fileID: 7406251001933291766, guid: e732e85fc442e0f4b841a6a52e59be36,
+    type: 3}
+  maxPlayerToDisplay: -1
+  titleText: {fileID: 0}
+  numberOfDecimals: 3
+  sortingButton: {fileID: 0}
+  maxPlayerButton: {fileID: 0}
+  fetchButton: {fileID: 0}
