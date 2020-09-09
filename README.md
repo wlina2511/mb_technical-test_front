@@ -21,9 +21,12 @@ I used Unity 2019.3.6f1 as requested, and chose to have my architecture as follo
 
 - The **Interface** GameObject contains the two **Canvases** we are using to use the application :
     - **RankDisplayCanvas** is the Canvas where the Leaderboard is displayed :
-    ![alt text](https://i.stack.imgur.com/M785c.png "Image1")
-(As you can see, I'm indeed a great designer)
-There are **3 buttons** on this canvas, the first one is used to change *the sorting order*, the second one is used to change **the number of players displayed** and the last one is to go back to the menu. As you might have noticed, those buttons do the exact same things as the variables in the inspector, and you're right ! I thought it was a good idea to give the player this freedom of choosing their own settings.
+    
+    ![alt text](https://i.stack.imgur.com/M785c.png "Image1") 
+    
+    (As you can see, I'm indeed a great designer)
+    
+There are **3 buttons** on this canvas, the first one is used to change *the sorting order*, the second one is used to change **the number of players displayed** and the   last one is to go back to the menu. As you might have noticed, those buttons do the exact same things as the variables in the inspector, and you're right ! I thought it was a good idea to give the player this freedom of choosing their own settings.
 
     - **MainMenuCanvas** is the Canvas where the Leaderboard is displayed :
     ![alt text](https://i.stack.imgur.com/exPDa.png "Image1")
