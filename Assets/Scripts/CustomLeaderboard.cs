@@ -20,9 +20,9 @@ public class CustomLeaderboard : MonoBehaviour
 
 
     [Header ("Project Variables")]
-    [Space (20)]
-    public Button sortingButton, maxPlayerButton, fetchButton;
+    
     public ClientAPI client;
+    public Button sortingButton, maxPlayerButton, fetchButton;
     public GameObject playerListPanel;
     public GameObject playerViewPrefab;
     public PlayerFormView playerForm;
@@ -30,8 +30,6 @@ public class CustomLeaderboard : MonoBehaviour
     public string lastPlayerSent;
     public Transform canvasParent;
     public TextMeshProUGUI titleText;
-
-    public GameObject playerViewTest;
 
     private Transform contentParent;
     private List<PlayerView> playerViews = new List<PlayerView>();
