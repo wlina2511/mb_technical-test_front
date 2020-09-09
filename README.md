@@ -9,7 +9,8 @@ I have spent a total of around **8** hours on Unity, split as following :
 - Around **4.5** hours implementing differents features, bonus or not. 
 
 ###  Architectural and technical choices
-Iused Unity 2019.3.6f1 as requested, and chose to have my architecture as follows : 
+I used Unity 2019.3.6f1 as requested, and chose to have my architecture as follows : 
+
 ![alt text](https://i.stack.imgur.com/QiJAP.png "Image1")
 
 - The **Leaderboard** GameObject is an empty one with multiple scripts attached to it, but the only one intersteting to look at is the **"CustomLeaderboard"** script. The intersteting variables to look at are the ones below **"LeaderBoard Customisation"** : 
