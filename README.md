@@ -13,20 +13,20 @@ I used Unity **2019.3.6f1 as requested**, and chose to have my architecture as f
 
 ![alt text](https://i.stack.imgur.com/QiJAP.png "Image1")
 
-- The **Leaderboard** GameObject is an empty one with multiple scripts attached to it, but the only one intersteting to look at is the **"CustomLeaderboard"** script. The intersteting variables to look at are the ones below **"LeaderBoard Customisation"** : 
+- The **Leaderboard** GameObject is an empty one with multiple scripts attached to it, but the only one interesting to look at is the **"CustomLeaderboard"** script. The interesting variables to look at are the ones below **"LeaderBoard Customisation"** : 
     - **isAcending** determines if the players are ranked from highest to lowest or the opposite
     - **Max Player To Display** determines the number of players displayed on the leaderboard, if set to -1, the cap will be removed
     - **Number Of Decimals** determines how many decimals of the players' scores are displayed in the leaderboard 
     - The rest of the variables are the projects variable which shouldn't be changed
 
-- The **Interface** GameObject contains the two **Canvases** we are using to use the application :
+- The **Interface** GameObject contains the two **Canvases** we are using to use in the application :
     - **RankDisplayCanvas** is the Canvas where the Leaderboard is displayed :
     
     ![alt text](https://i.stack.imgur.com/M785c.png "Image1") 
     
     (As you can see, I'm indeed a great designer)
     
-    There are **3 buttons** on this canvas, the first one is used to change *the sorting order*, the second one is used to change **the number of players displayed** and the         last one is to go back to the menu. As you might have noticed, those buttons do the exact same things as the variables in the inspector, and you're right ! I thought it was     a good idea to give the player this freedom of choosing their own settings.
+    There are **3 buttons** on this canvas, the first one is used to change **the sorting order**, the second one is used to change **the number of players displayed** and the         last one is to go back to the menu. As you might have noticed, those buttons do the exact same things as the variables in the inspector, and you're right ! I thought it was a good idea to give the player this freedom of choosing their own settings.
 
     - **MainMenuCanvas** is the Canvas where the Leaderboard is displayed :
     
@@ -37,7 +37,7 @@ I used Unity **2019.3.6f1 as requested**, and chose to have my architecture as f
     - The **Fetch ranks** Button is here to get the player database from the back-end, so you'll have to press it everytime you send a new score, as the database doesn't update on its own when you send a score (this used to be the case but it made the **Fetch** button useless, so I went back to a manual fetch)
     - The **Show ranks** takes you to the leaderboard
 
-- And lastly, the **Client** GameObject is also an empty one, with the **ClientAPI** script attached to it, which contains all the Front-toBack connections, and which parameters are the differents routes urls : 
+- And lastly, the **Client** GameObject is also an empty one, with the **ClientAPI** script attached to it, which contains all the Front-to-Back connections, and which parameters are the differents routes urls : 
 ![alt text](https://i.stack.imgur.com/K7Eoh.png "Image1")
 
 ### What was hard
