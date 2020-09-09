@@ -9,7 +9,7 @@ I have spent a total of around **8** hours on Unity, split as following :
 - Around **4.5** hours implementing differents features, bonus or not. 
 
 ###  Architectural and technical choices
-I used Unity 2019.3.6f1 as requested, and chose to have my architecture as follows : 
+I used Unity **2019.3.6f1 as requested**, and chose to have my architecture as follows : 
 
 ![alt text](https://i.stack.imgur.com/QiJAP.png "Image1")
 
@@ -58,7 +58,7 @@ For the leaderboard in itself, I would like to implement a **Player page** which
 
 ##### Unity Version
 
-The version I used for this project was, as I said in the intro, the 2019.3.6f1 .
+The version I used for this project was, as I said in the intro, the **2019.3.6f1** .
 
 ##### Step by step guide
 
@@ -95,7 +95,7 @@ Here are the tutorials I used :
 
 [//]: #
 
-   [Unity Tutorial]: http://www.drmop.com/index.php/2016/09/15/creating-a-unity-leaderboard-using-node-js-and-redis/
+   [Unity Tutorial]: https://dev.to/cemuka/making-a-rest-service-using-node-and-express-to-use-with-unity-part-1-321n
    
    
 
