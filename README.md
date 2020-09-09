@@ -26,14 +26,16 @@ I used Unity 2019.3.6f1 as requested, and chose to have my architecture as follo
     
     (As you can see, I'm indeed a great designer)
     
-There are **3 buttons** on this canvas, the first one is used to change *the sorting order*, the second one is used to change **the number of players displayed** and the   last one is to go back to the menu. As you might have noticed, those buttons do the exact same things as the variables in the inspector, and you're right ! I thought it was a good idea to give the player this freedom of choosing their own settings.
+    There are **3 buttons** on this canvas, the first one is used to change *the sorting order*, the second one is used to change **the number of players displayed** and the         last one is to go back to the menu. As you might have noticed, those buttons do the exact same things as the variables in the inspector, and you're right ! I thought it was     a good idea to give the player this freedom of choosing their own settings.
 
     - **MainMenuCanvas** is the Canvas where the Leaderboard is displayed :
+    
     ![alt text](https://i.stack.imgur.com/exPDa.png "Image1")
-        - The **Send Score** Button is used to either **create** a new entry in the database if the id is new, or **update** with a new score if the id is already existing. Be careful ! Only the last score is displayed, wether the previous was higher or not.
-        - The **Delete Score** Button is used to delete a player in the database. You have to specify which player is deleted by inputting his name in the **"Your name"** input, and provide a score as well (even though the score is meaningless), otherwise the application won't let you send the delete request
-        - The **Fetch ranks** Button is here to get the player database from the back-end, so you'll have to press it everytime you send a new score, as the database doesn't update on its own when you send a score (this used to be the case but it made the **Fetch** button useless, so I went back to a manual fetch)
-        - The **Show ranks** takes you to the leaderboard
+    
+    - The **Send Score** Button is used to either **create** a new entry in the database if the id is new, or **update** with a new score if the id is already existing. Be careful ! Only the last score is displayed, wether the previous was higher or not.
+    - The **Delete Score** Button is used to delete a player in the database. You have to specify which player is deleted by inputting his name in the **"Your name"** input, and provide a score as well (even though the score is meaningless), otherwise the application won't let you send the delete request
+    - The **Fetch ranks** Button is here to get the player database from the back-end, so you'll have to press it everytime you send a new score, as the database doesn't update on its own when you send a score (this used to be the case but it made the **Fetch** button useless, so I went back to a manual fetch)
+    - The **Show ranks** takes you to the leaderboard
 
 - And lastly, the **Client** GameObject is also an empty one, with the **ClientAPI** script attached to it, which contains all the Front-toBack connections, and which parameters are the differents routes urls : 
 ![alt text](https://i.stack.imgur.com/K7Eoh.png "Image1")
